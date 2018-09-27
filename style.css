@@ -1,0 +1,18 @@
+html, body {
+  font-size: 18px;
+  background-color: #E6F9FC;
+}
+
+.tut-container {
+
+}
+
+.tut-item {
+  text-align:left;
+  border-radius: 8px;
+  background-color: #BBBBCC; /*#7C9AAD; /*#76A3A3;*/
+  box-shadow: 2px 2px 4px #666666; /*#BBBBBB;*/
+  margin: 1rem 2%;
+  max-width: 100%;
+  flex: 1 0 20rem; 
+}
