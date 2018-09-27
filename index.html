@@ -15,7 +15,7 @@
               <input v-model="search" type="text" class="form-control" placeholder="Search...">
             </div>
           </div>
-          <div v-if="tutorials" class="d-flex flex-wrap justify-content-around tut-container">
+          <div v-if="tutorials" class="d-flex flex-wrap justify-content-around">
             <div v-for="tut in filteredTutorials" class="p-4 tut-item">
               <h3><a v-bind:href="tut.tutorial_link">{{tut.name}}</a></h3>
               <h4>{{tut.topic}}</h4>
